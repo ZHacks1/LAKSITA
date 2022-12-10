@@ -1,0 +1,38 @@
+
+* {
+     box-sizing: border-box; 
+     padding: 0;
+     margin: 0;
+ }
+
+body{
+    height: 100%;
+}
+
+img {
+    position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 810px;
+    top: -91px;
+}
+.back .curve {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 72px;
+    top: 52px;
+    background: #D9D9D9;
+    border-radius: 50px;
+}
+
+.curve:hover{
+    background: transparent;
+    border: 2px solid #D9D9D9;
+    cursor: pointer;
+}
+
+
